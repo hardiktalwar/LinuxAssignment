@@ -1,7 +1,7 @@
 #! /usr/bin/bash
 
 file_count(){
-count=$(ls | wc -l)
+local count=$(ls | wc -l)
 echo "The File Count Is: $count"
 }
 
